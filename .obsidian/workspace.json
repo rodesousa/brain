@@ -1,0 +1,215 @@
+{
+  "main": {
+    "id": "b1b8eca05b496cc9",
+    "type": "split",
+    "children": [
+      {
+        "id": "817f6af7a8969699",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e55818b8796f73e3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/repos/context-labs-halo.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "context-labs-halo"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "51d3ba2ebcbc965b",
+    "type": "split",
+    "children": [
+      {
+        "id": "f907a61a4b8258cb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "931030a1e473eba2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorateur de fichiers"
+            }
+          },
+          {
+            "id": "02d073169438f926",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Rechercher"
+            }
+          },
+          {
+            "id": "4e0c56e3b2cb36b4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Signets"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "fc868eab222f4c40",
+    "type": "split",
+    "children": [
+      {
+        "id": "9526acce9bfebc2c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "862176e58e900201",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "wiki/repos/context-labs-halo.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Rétrolien pour context-labs-halo"
+            }
+          },
+          {
+            "id": "b4db4bdfcc31f595",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "wiki/repos/context-labs-halo.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Liens sortants de context-labs-halo"
+            }
+          },
+          {
+            "id": "c54e09234721b4a9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Mots-clés"
+            }
+          },
+          {
+            "id": "2f5b24907dc6903e",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Toutes les propriétés"
+            }
+          },
+          {
+            "id": "9b2873f1c152fe1c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "wiki/repos/context-labs-halo.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Plan de context-labs-halo"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Ouvrir le sélecteur rapide": false,
+      "graph:Ouvrir la vue graphique": false,
+      "canvas:Créer une nouvelle toile": false,
+      "daily-notes:Ouvrir la note quotidienne": false,
+      "templates:Insérer le modèle": false,
+      "command-palette:Ouvrir la palette de commandes": false,
+      "bases:Créer une nouvelle base": false
+    }
+  },
+  "active": "e55818b8796f73e3",
+  "lastOpenFiles": [
+    "raw/repos/midudev-autoskills.md",
+    "wiki/repos/context-labs-halo.md",
+    "raw/repos/context-labs-halo.md",
+    "index.md",
+    "Sans titre.canvas",
+    "Sans titre 1.canvas",
+    "2026-05-09.md",
+    "raw/clusters/repos/context-labs-halo/cluster-01-purpose.md",
+    "raw/clusters/repos/context-labs-halo/cluster-02-methodology.md",
+    "wiki/reports/lint-2026-05-09.md",
+    "wiki/repos",
+    "raw/clusters/repos/context-labs-halo/cluster-03-rlm-design.md",
+    "raw/clusters/repos/context-labs-halo/cluster-05-lessons.md",
+    "raw/clusters/repos/context-labs-halo",
+    "raw/clusters/repos",
+    "raw/clusters",
+    "LLM-WIKI-CONCEPT.md",
+    "raw/repos",
+    "tools/snapshot_repo.py",
+    "improve.md",
+    "tools/scrape_tweet.py",
+    "tools/scrape_profile.py",
+    "tools/scrape-tweet.ts",
+    "tools/scrape-profile.ts",
+    "wiki/reports/lint-2026-05-07.md",
+    "hot.md"
+  ]
+}
