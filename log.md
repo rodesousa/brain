@@ -26,3 +26,12 @@ Journal chronologique du wiki. Append-only.
 ## [2026-05-13] update | index.md régénéré (2 pages)
 ## [2026-05-13] lint | 0 erreurs, 0 warnings sur 2 pages
 ## [2026-05-13] update | Lint reports supprimés. tools/lint.py imprime sur stdout, plus de wiki/reports/. tools/update_index.py et _lib.py nettoyés (REPORTS constant + lint-report type retirés). wiki/reports/lint-*.md supprimés.
+## [2026-05-13] update | index.md régénéré (3 pages)
+## [2026-05-13] ingest | zero-native landing → wiki/tools/zero-native.md (lifecycle: draft, single source web). Premier élément domaine desktop-apps, pas de liens vers entités existantes.
+## [2026-05-13] lint | 0 erreurs, 3 warnings sur 3 pages
+## [2026-05-13] lint | 0 erreurs, 1 warnings sur 3 pages
+## [2026-05-13] lint | 0 erreurs, 1 warning (zero-native orphelin attendu — premier élément du domaine desktop-apps)
+## [2026-05-13] update | index.md régénéré (3 pages)
+## [2026-05-13] ingest | vercel-labs/zero-native repo → wiki/tools/zero-native.md mis à jour (3 facets kept : architecture, security-model, mobile-embedding ; 2 discarded : purpose, examples-ecosystem). +1 source primaire (README).
+## [2026-05-13] lint | 0 erreurs, 1 warnings sur 3 pages
+## [2026-05-13] lint | 0 erreurs, 1 warning (zero-native toujours orphelin, attendu)
