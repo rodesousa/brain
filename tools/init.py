@@ -6,7 +6,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-from _lib import VAULT, WIKI, RAW, REPORTS, INDEX_MD, LOG_MD, HOT_MD, append_log_line
+from _lib import VAULT, WIKI, RAW, INDEX_MD, LOG_MD, HOT_MD, append_log_line
 
 
 INDEX_TEMPLATE = """# Index
@@ -44,7 +44,7 @@ def ensure_file(p: Path, content: str) -> bool:
 
 def main() -> int:
     created: list[str] = []
-    for d in (RAW, WIKI, REPORTS):
+    for d in (RAW, WIKI):
         if ensure_dir(d):
             created.append(f"dir  {d.relative_to(VAULT)}/")
     for f, tpl in ((INDEX_MD, INDEX_TEMPLATE), (LOG_MD, LOG_TEMPLATE), (HOT_MD, HOT_TEMPLATE)):

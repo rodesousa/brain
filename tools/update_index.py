@@ -11,7 +11,7 @@ from collections import defaultdict
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-from _lib import INDEX_MD, REPORTS, VAULT, WIKI, append_log_line, iter_wiki_pages, today_iso
+from _lib import INDEX_MD, VAULT, WIKI, append_log_line, iter_wiki_pages, today_iso
 
 TYPE_ORDER = ["overview", "entity", "concept", "comparison", "source-summary"]
 TYPE_LABELS = {
@@ -58,15 +58,6 @@ def main() -> int:
         for page in sorted(untyped, key=lambda p: p.slug):
             out.append(f"- [[{page.slug}]] — _frontmatter `type:` manquant ou invalide_")
         out.append("")
-
-    if REPORTS.exists():
-        reports = sorted(REPORTS.glob("lint-*.md"), reverse=True)[:5]
-        if reports:
-            out.append("## Rapports de lint (5 derniers)")
-            out.append("")
-            for r in reports:
-                out.append(f"- [[{r.stem}]]")
-            out.append("")
 
     INDEX_MD.write_text("\n".join(out), encoding="utf-8")
     print(f"  + index.md régénéré ({len(pages)} pages)")

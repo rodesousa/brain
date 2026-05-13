@@ -1,6 +1,6 @@
 # Index
 
-_Régénéré le 2026-05-09 — 1 pages._
+_Régénéré le 2026-05-13 — 2 pages._
 
 ## Vues d'ensemble
 
@@ -9,6 +9,7 @@ _(aucune)_
 ## Entités
 
 - [[context-labs-halo]] `reviewed` — Outil d'analyse automatique de traces d'agents en prod — détecte les failure modes systémiques et fait appliquer les fixes par un coding agent.
+- [[hermes-agent]] `draft` — Framework d'agent autonome avec profils, intégrations messageries multiples, providers pluggables, MCP, et focus 0.13 sur la fiabilité long-running.
 
 ## Concepts
 
@@ -21,8 +22,3 @@ _(aucune)_
 ## Sources
 
 _(aucune)_
-
-## Rapports de lint (5 derniers)
-
-- [[lint-2026-05-09]]
-- [[lint-2026-05-07]]

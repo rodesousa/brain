@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/repos/context-labs-halo.md",
+                "file": "raw/tfm/5.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "context-labs-halo"
+              "title": "5"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "wiki/repos/context-labs-halo.md",
+                "file": "raw/tfm/5.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Rétrolien pour context-labs-halo"
+              "title": "Rétrolien pour 5"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "wiki/repos/context-labs-halo.md",
+                "file": "raw/tfm/5.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Liens sortants de context-labs-halo"
+              "title": "Liens sortants de 5"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "wiki/repos/context-labs-halo.md",
+                "file": "raw/tfm/5.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Plan de context-labs-halo"
+              "title": "Plan de 5"
             }
           }
         ]
@@ -185,18 +185,35 @@
   },
   "active": "e55818b8796f73e3",
   "lastOpenFiles": [
-    "raw/repos/midudev-autoskills.md",
+    "wiki/reports/lint-2026-05-13.md",
+    "wiki/agents/hermes-agent.md",
+    "wiki/agents",
+    "wiki/tools/context-labs-halo.md",
+    "wiki/tools",
+    "raw/youtube/hermes-agent-3-aicodeking.md",
+    "raw/youtube",
+    "raw/tfm/1.md",
     "wiki/repos/context-labs-halo.md",
-    "raw/repos/context-labs-halo.md",
     "index.md",
+    "wiki/reports/lint-2026-05-07.md",
+    "CLAUDE.md",
+    "raw/clusters/repos/context-labs-halo/cluster-03-rlm-design.md",
+    "raw/clusters/repos/context-labs-halo/cluster-02-methodology.md",
+    "raw/clusters/repos/context-labs-halo/cluster-01-purpose.md",
+    "raw/tfm/3.md",
+    "raw/tfm/2.md",
+    "raw/tfm/5.md",
+    "raw/tfm/4.md",
+    "raw/tfm/The_state_of_Tabular_Foundation_Models_2026.md",
+    "raw/tfm",
+    "raw/The_state_of_Tabular_Foundation_Models_2026.md",
+    "raw/repos/midudev-autoskills.md",
+    "raw/repos/context-labs-halo.md",
     "Sans titre.canvas",
     "Sans titre 1.canvas",
     "2026-05-09.md",
-    "raw/clusters/repos/context-labs-halo/cluster-01-purpose.md",
-    "raw/clusters/repos/context-labs-halo/cluster-02-methodology.md",
     "wiki/reports/lint-2026-05-09.md",
     "wiki/repos",
-    "raw/clusters/repos/context-labs-halo/cluster-03-rlm-design.md",
     "raw/clusters/repos/context-labs-halo/cluster-05-lessons.md",
     "raw/clusters/repos/context-labs-halo",
     "raw/clusters/repos",
@@ -205,11 +222,6 @@
     "raw/repos",
     "tools/snapshot_repo.py",
     "improve.md",
-    "tools/scrape_tweet.py",
-    "tools/scrape_profile.py",
-    "tools/scrape-tweet.ts",
-    "tools/scrape-profile.ts",
-    "wiki/reports/lint-2026-05-07.md",
     "hot.md"
   ]
 }

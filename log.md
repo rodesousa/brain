@@ -17,3 +17,12 @@ Journal chronologique du wiki. Append-only.
 ## [2026-05-09] update | improve.md mis à jour après cobaye HALO — 5 décisions actées (zone C, snapshot A, wiki/repos+entity, fusion facets, lint cross-zones), 4 questions encore ouvertes (digest tweets, snippets repos, re-ingest, hot pending), 5 apprentissages capturés
 ## [2026-05-09] lint | 0 erreurs, 1 warnings sur 1 pages
 ## [2026-05-09] update | index.md régénéré (1 pages)
+## [2026-05-13] update | Règle index sub-grouping ajoutée à CLAUDE.md — filesystem plat par catégorie, sub-grouping par tag dominant dans index.md quand une section dépasse 15 entrées (patch update_index.py, pas de migration)
+## [2026-05-13] update | index.md régénéré (1 pages)
+## [2026-05-13] update | Convention révisée : entités dans wiki/<domain>/ (agents/tools/...), plus dans wiki/repos/. HALO migré wiki/repos/ → wiki/tools/. CLAUDE.md + improve.md mis à jour.
+## [2026-05-13] update | index.md régénéré (2 pages)
+## [2026-05-13] ingest | Hermes Agent 0.13 (Tenacity) — vidéo AICodeKing → wiki/agents/hermes-agent.md (lifecycle: draft, single source, à enrichir). Liens bidirectionnels avec context-labs-halo via pattern agent-reliability.
+## [2026-05-13] lint | 0 erreurs, 0 warnings sur 2 pages
+## [2026-05-13] update | index.md régénéré (2 pages)
+## [2026-05-13] lint | 0 erreurs, 0 warnings sur 2 pages
+## [2026-05-13] update | Lint reports supprimés. tools/lint.py imprime sur stdout, plus de wiki/reports/. tools/update_index.py et _lib.py nettoyés (REPORTS constant + lint-report type retirés). wiki/reports/lint-*.md supprimés.

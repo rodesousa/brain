@@ -9,13 +9,12 @@ from pathlib import Path
 VAULT = Path(__file__).resolve().parent.parent
 WIKI = VAULT / "wiki"
 RAW = VAULT / "raw"
-REPORTS = WIKI / "reports"
 INDEX_MD = VAULT / "index.md"
 LOG_MD = VAULT / "log.md"
 HOT_MD = VAULT / "hot.md"
 
 VALID_ACTIONS = {"init", "ingest", "query", "lint", "crystallize", "update", "note"}
-VALID_TYPES = {"entity", "concept", "source-summary", "comparison", "overview", "lint-report"}
+VALID_TYPES = {"entity", "concept", "source-summary", "comparison", "overview"}
 VALID_LIFECYCLE = {"draft", "reviewed", "verified"}
 TAG_BLACKLIST = {"ai", "llm", "agent", "tech", "notes", "startup", "interesting", "cool"}
 MAX_TAGS = 5

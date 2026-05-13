@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Vérifie les 7 règles de lint du schéma. Écrit un rapport daté.
+"""Vérifie les règles de lint du schéma. Sortie sur stdout, summary dans log.md.
 
 Exit code : 1 si ≥1 erreur (block), 0 sinon (warnings ok).
 """
@@ -14,7 +14,6 @@ from _lib import (
     DRAFT_WARN_DAYS,
     MAX_TAGS,
     MIN_TAGS,
-    REPORTS,
     REQUIRED_FM_FIELDS,
     TAG_BLACKLIST,
     VALID_LIFECYCLE,
@@ -107,61 +106,13 @@ def lint(pages: list[Page]) -> tuple[list[str], list[str]]:
     return errors, warnings
 
 
-def render_report(pages: list[Page], errors: list[str], warnings: list[str]) -> str:
-    lines = [
-        "---",
-        "type: lint-report",
-        f"summary: Rapport de lint du {today_iso()} — {len(errors)} erreurs, {len(warnings)} warnings sur {len(pages)} pages.",
-        f"created: {today_iso()}",
-        f"updated: {today_iso()}",
-        "lifecycle: verified",
-        "tags: [lint, report]",
-        "---",
-        "",
-        f"# Lint — {today_iso()}",
-        "",
-        "## Sommaire",
-        "",
-        f"- {len(pages)} pages dans `wiki/`",
-        f"- **{len(errors)} erreurs** (block)",
-        f"- {len(warnings)} warnings",
-        "",
-    ]
-    if errors:
-        lines.append("## Erreurs")
-        lines.append("")
-        for e in errors:
-            lines.append(f"- {e}")
-        lines.append("")
-    if warnings:
-        lines.append("## Warnings")
-        lines.append("")
-        for w in warnings:
-            lines.append(f"- {w}")
-        lines.append("")
-    if not errors and not warnings:
-        lines.append("✓ Tout est propre.")
-        lines.append("")
-    lines.extend([
-        "---",
-        "",
-        "_Lint mécanique — l'humain reste responsable du lint sémantique (contradictions entre pages, claims stales, synthèse à raffiner)._",
-    ])
-    return "\n".join(lines)
-
-
 def main() -> int:
     pages = iter_wiki_pages(include_reports=False)
     errors, warnings = lint(pages)
 
-    REPORTS.mkdir(parents=True, exist_ok=True)
-    report_path = REPORTS / f"lint-{today_iso()}.md"
-    report_path.write_text(render_report(pages, errors, warnings), encoding="utf-8")
-
     print(f"  Pages : {len(pages)}")
     print(f"  Erreurs : {len(errors)}")
     print(f"  Warnings : {len(warnings)}")
-    print(f"  Rapport : {report_path.relative_to(VAULT)}")
     if errors:
         print()
         print("ERREURS :")
@@ -170,10 +121,10 @@ def main() -> int:
     if warnings:
         print()
         print("WARNINGS :")
-        for w in warnings[:10]:
+        for w in warnings:
             print(f"  ! {w}")
-        if len(warnings) > 10:
-            print(f"  … {len(warnings) - 10} autres dans le rapport")
+    if not errors and not warnings:
+        print("  ✓ Tout est propre.")
 
     append_log_line("lint", f"{len(errors)} erreurs, {len(warnings)} warnings sur {len(pages)} pages")
     return 1 if errors else 0

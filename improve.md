@@ -10,7 +10,7 @@ Réflexions architecturales en suspens. Pas urgentes, mais à trancher avant que
 
 - **Zone clusters** = `raw/clusters/<source-type>/<source-id>/` avec champ `status: pending|kept|discarded`. **Pas** de zone `staging/` séparée. (Question 3, option C confirmée par usage.)
 - **Snapshot repo** = option A — un seul fichier markdown `raw/repos/<owner>-<repo>.md` avec frontmatter minimal (`repo`, `url`, `fetched_at`) + README verbatim. Pas de commit SHA, pas de tree, pas de stats. Re-snapshot = overwrite ou nouveau fichier daté à décider plus tard. (Question 2.a)
-- **Page wiki pour un repo** = `wiki/repos/<owner>-<repo>.md` avec `type: entity`. Pas de nouveau `type: repo` introduit. (Question 2.b)
+- ~~**Page wiki pour un repo** = `wiki/repos/<owner>-<repo>.md` avec `type: entity`.~~ **Révisé 2026-05-13** : une entité = une seule page wiki dans son dossier de domaine (`wiki/agents/`, `wiki/tools/`…), pas dans `wiki/repos/`. Le snapshot `raw/repos/<owner>-<repo>.md` reste une source parmi d'autres. Voir règle "Localisation des entités" dans `CLAUDE.md`. (Question 2.b — décision révisée.)
 - **Numérotation des clusters** préservée quand certains facets sont écartés en amont (ex : `cluster-01, 02, 03, 05` si la 4 a été retirée). Garde la trace de "ce qui a été considéré et rejeté".
 - **Granularité wiki** : plusieurs cluster files `kept` peuvent fusionner dans **une seule** page wiki si les facets se recouvrent (ex : `purpose` + `methodology` → `wiki/repos/halo.md`). Une facet ne mérite pas forcément sa propre page wiki.
 - **Citation cluster files depuis wiki/** : via wikilinks Obsidian (`[[cluster-NN-facet]]`). Le lint résout désormais les wikilinks contre `raw/` + `wiki/`, pas seulement `wiki/`.
@@ -80,7 +80,7 @@ Cette structure est utilisée actuellement (validée par cobaye HALO). Question 
 2. ~~Décider si fusion clusters par source~~ → **structure actuelle conservée**
 3. Choisir granularité digest tweets (mensuel / hebdo / par batch)
 4. ~~Trancher snapshot repos (section 2.a)~~ → **A, fait**
-5. ~~Trancher type wiki/repos vs wiki/entities (section 2.b)~~ → **wiki/repos/ + type:entity, fait**
+5. ~~Trancher type wiki/repos vs wiki/entities (section 2.b)~~ → ~~**wiki/repos/ + type:entity, fait**~~ → **révisé 2026-05-13** : une entité vit dans son dossier de domaine (`wiki/agents/`, `wiki/tools/`…), pas dans `wiki/repos/`. HALO migré de `wiki/repos/` vers `wiki/tools/`.
 6. Snippets in-page repos (section 2.c)
 7. Re-ingest evolution repos (section 2.d) — peut attendre
 8. Implémenter `pending >7j` dans `update_hot.py` (nouveau)

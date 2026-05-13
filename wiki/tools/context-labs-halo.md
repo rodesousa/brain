@@ -3,7 +3,7 @@ type: entity
 summary: Outil d'analyse automatique de traces d'agents en prod — détecte les failure modes systémiques et fait appliquer les fixes par un coding agent.
 lifecycle: reviewed
 created: 2026-05-09
-updated: 2026-05-09
+updated: 2026-05-13
 sources:
   - raw/repos/context-labs-halo.md
 tags:
@@ -76,4 +76,4 @@ Facets écartées : `rlm-design` (cluster-03, discarded), `lessons` (cluster-05,
 
 ## Related
 
-_(aucun lien pour l'instant — première page wiki du vault)_
+- [[hermes-agent]] — framework d'agent qui adresse au runtime les mêmes failure modes que Halo détecte post-hoc dans les traces (zombies, hallucination gate, perte de goal, recovery après crash).
