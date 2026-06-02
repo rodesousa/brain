@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "817f6af7a8969699",
+        "id": "a121439f773e17f9",
         "type": "tabs",
         "children": [
           {
-            "id": "e55818b8796f73e3",
+            "id": "d3c42f0547a9224e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "raw/tfm/5.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "5"
+              "title": "Nouvel onglet"
             }
           }
         ]
@@ -94,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "raw/tfm/5.md",
+                "file": "wiki/tools/context-labs-halo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +100,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Rétrolien pour 5"
+              "title": "Rétrolien pour context-labs-halo"
             }
           },
           {
@@ -113,12 +109,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "raw/tfm/5.md",
+                "file": "wiki/tools/context-labs-halo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Liens sortants de 5"
+              "title": "Liens sortants de context-labs-halo"
             }
           },
           {
@@ -156,13 +152,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "raw/tfm/5.md",
+                "file": "wiki/tools/context-labs-halo.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Plan de 5"
+              "title": "Plan de context-labs-halo"
             }
           }
         ]
@@ -183,45 +179,45 @@
       "bases:Créer une nouvelle base": false
     }
   },
-  "active": "e55818b8796f73e3",
+  "active": "d3c42f0547a9224e",
   "lastOpenFiles": [
-    "raw/clusters/repos/vercel-labs-zero-native/cluster-05-examples-ecosystem.md",
-    "raw/clusters/repos/vercel-labs-zero-native/cluster-04-mobile-embedding.md",
-    "raw/clusters/repos/vercel-labs-zero-native/cluster-03-security-model.md",
-    "raw/clusters/repos/vercel-labs-zero-native/cluster-02-architecture.md",
-    "raw/clusters/repos/vercel-labs-zero-native/cluster-01-purpose.md",
-    "raw/clusters/repos/vercel-labs-zero-native",
-    "raw/repos/vercel-labs-zero-native.md",
-    "wiki/tools/zero-native.md",
-    "raw/web/zero-native-landing.md",
-    "raw/web",
-    "wiki/reports/lint-2026-05-13.md",
-    "wiki/agents/hermes-agent.md",
-    "wiki/agents",
-    "wiki/tools/context-labs-halo.md",
-    "wiki/tools",
-    "raw/youtube/hermes-agent-3-aicodeking.md",
-    "raw/youtube",
-    "raw/tfm/1.md",
-    "wiki/repos/context-labs-halo.md",
-    "index.md",
-    "wiki/reports/lint-2026-05-07.md",
-    "CLAUDE.md",
-    "raw/clusters/repos/context-labs-halo/cluster-03-rlm-design.md",
-    "raw/clusters/repos/context-labs-halo/cluster-02-methodology.md",
-    "raw/clusters/repos/context-labs-halo/cluster-01-purpose.md",
-    "raw/tfm/3.md",
-    "raw/tfm/2.md",
-    "raw/tfm/5.md",
-    "raw/tfm/4.md",
-    "raw/tfm/The_state_of_Tabular_Foundation_Models_2026.md",
-    "raw/tfm",
-    "raw/The_state_of_Tabular_Foundation_Models_2026.md",
+    "wiki/concepts/inference-bottlenecks.md",
+    "wiki/concepts/continuous-batching.md",
+    "wiki/concepts/paged-attention.md",
+    "wiki/tools/mlc-llm.md",
+    "wiki/tools/ollama.md",
+    "wiki/tools/nvidia-dynamo.md",
+    "wiki/tools/exllamav3.md",
+    "wiki/tools/exllamav2.md",
+    "wiki/tools/mlx.md",
+    "wiki/llm_101/serving-modes-llm.md.tmp.6033.1ef5dbb39348",
+    "wiki/tools/llama-cpp.md",
+    "wiki/tools/tensorrt-llm.md",
+    "wiki/tools/sglang.md",
+    "wiki/tools/vllm.md",
+    "wiki/hardware/memory-bandwidth.md",
+    "wiki/hardware",
+    "wiki/sources/ahmad-osman-inference-engines-2026.md",
+    "wiki/sources/ahmad-osman-memory-bandwidth-2026.md",
+    "wiki/sources/ahmad-osman-gpu-memory-math-2026.md",
+    "wiki/prompts/claude-power-prompts.md",
+    "wiki/prompts",
+    "Clippings/12 things most Claude users have never set up and it's costing them every single day.md",
+    "raw/tweet/12-claude-tips-kingwilliamdefi.md",
+    "wiki/concepts/claude-md-pattern.md",
+    "wiki/concepts",
+    "wiki/sources/karpathy-claude-md-viral-thread.md",
+    "wiki/sources",
+    "raw/clusters/articles/LLM_101/cluster-01-inference-mechanics.md",
+    "raw/tweet/Post by @DJ_CURFEW on X.md",
+    "Clippings/Karpathy's CLAUDE.md hit 1 on GitHub with 82,000 stars. Most devs still haven't read it..md",
+    "wiki/llm_101/llm-101.md",
+    "Clippings",
+    "projet",
+    "wiki/llm_101",
+    "raw/clusters/articles/LLM_101/wiki/llm_101",
+    "raw/clusters/articles/LLM_101/wiki",
     "Sans titre.canvas",
-    "Sans titre 1.canvas",
-    "wiki/repos",
-    "raw/clusters/repos/context-labs-halo",
-    "raw/clusters/repos",
-    "raw/clusters"
+    "Sans titre 1.canvas"
   ]
 }

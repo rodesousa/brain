@@ -1,7 +1,7 @@
 ---
 type: entity
-summary: Framework Vercel Labs (Zig + WebView) pour desktop natives ET module embarqué dans apps mobiles natives via C ABI. Engine WebView (système ou Chromium) au choix.
-lifecycle: draft
+summary: Framework Vercel Labs (Zig + WebView) pour desktop natives ET module embarqué dans apps mobiles natives via C ABI. Engine WebView (système ou Chromium) au choix. Challenger direct de Tauri.
+lifecycle: reviewed
 created: 2026-05-13
 updated: 2026-05-13
 sources:
@@ -124,7 +124,7 @@ Trois angles vraiment originaux, dans l'ordre d'importance :
 
 Ce qui me rend prudent : "Vercel Labs" = signal d'incubation, pas de produit prod (cf. README "pre-release"). Windows annoncé en "build paths" pas complet. Écosystème Zig encore jeune (le langage lui-même pas 1.0). Pas pertinent pour shipper un produit aujourd'hui — pertinent pour expérimenter une appli locale ou tester l'angle "module embarqué dans une app mobile native".
 
-Pas de connexion directe avec les autres entités du vault (qui sont sur le terrain agent/AI) — zero-native est le premier élément d'un domaine "frameworks/desktop+mobile". Note pour plus tard : si je crée d'autres pages dans ce domaine (Tauri, Wails, Electron…), une page `comparisons/desktop-web-frameworks.md` aurait du sens, et le point de comparaison à creuser en priorité serait la dimension mobile-embedding.
+Comparaison directe avec [[tauri]] (le titulaire du segment) traitée en détail dans la *My take* de la page Tauri — tableau comparatif et règles de décision. Les deux frameworks convergent sur le custom WebView protocol (pas de serveur HTTP local), divergent sur le choix d'engine (système+Chromium au choix vs système uniquement) et le modèle mobile (module embedded vs app standalone). Pas de connexion directe avec les entités agent du vault — domaine "frameworks/desktop+mobile" séparé. Quand on aura ≥3 frameworks (Wails, Electron, Dioxus…), une page `comparisons/desktop-web-frameworks.md` aura du sens.
 
 ## Sources
 
@@ -139,3 +139,7 @@ Facets kept (clusters) :
 Facets écartées : `cluster-01-purpose` (doublon landing), `cluster-05-examples-ecosystem` (starters génériques sans signal).
 
 À ingérer ensuite si besoin de plus de profondeur : docs `/security`, `/bridge`, `/app-model`, `/web-engines`, `/packaging` sur zero-native.dev.
+
+## Related
+
+- [[tauri]] — le titulaire du segment "WebView + langage système". Comparaison directe (langage, choix d'engine, modèle mobile, maturité) dans la *My take* de Tauri.

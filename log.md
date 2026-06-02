@@ -35,3 +35,48 @@ Journal chronologique du wiki. Append-only.
 ## [2026-05-13] ingest | vercel-labs/zero-native repo → wiki/tools/zero-native.md mis à jour (3 facets kept : architecture, security-model, mobile-embedding ; 2 discarded : purpose, examples-ecosystem). +1 source primaire (README).
 ## [2026-05-13] lint | 0 erreurs, 1 warnings sur 3 pages
 ## [2026-05-13] lint | 0 erreurs, 1 warning (zero-native toujours orphelin, attendu)
+## [2026-05-13] update | index.md régénéré (4 pages)
+## [2026-05-13] ingest | alloy-ex/alloy → wiki/agents/alloy.md (lifecycle: draft, source primaire README, 5 facets kept : purpose-design-boundary, architecture, provider-system, memory-primitive, operational-surface ; 1 discarded : quickstart-and-tables). Liens bidirectionnels avec hermes-agent (philosophies opposées) et context-labs-halo (telemetry compatible).
+## [2026-05-13] lint | 0 erreurs, 1 warnings sur 4 pages
+## [2026-05-13] lint | 0 erreurs, 1 warning (zero-native toujours orphelin, attendu — alloy correctement linké aux 2 entités existantes)
+## [2026-05-13] update | index.md régénéré (5 pages)
+## [2026-05-13] ingest | tauri-apps/tauri → wiki/tools/tauri.md (lifecycle: draft, source primaire README, 5 facets kept : purpose-positioning, architecture-stack, bundler-distribution, platforms-coverage, security-webview-protocol ; 1 discarded : governance-licensing). Liens bidirectionnels avec zero-native (challenger direct, tableau comparatif dans My take Tauri).
+## [2026-05-13] lint | 0 erreurs, 0 warnings sur 5 pages
+## [2026-05-13] lint | 0 erreurs, 0 warnings sur 5 pages — vault entièrement propre, plus d'orphelin (zero-native ↔ tauri résout le warning)
+## [2026-05-17] update | index.md régénéré (5 pages)
+## [2026-05-17] ingest | Hermes Agent — doc officielle API server
+## [2026-05-17] lint | 0 erreurs, 0 warnings sur 5 pages
+## [2026-05-18] update | index.md régénéré (5 pages)
+## [2026-05-18] ingest | Hermes Agent — docs tips + SOUL.md
+## [2026-05-18] lint | 0 erreurs, 0 warnings sur 5 pages
+## [2026-05-18] update | index.md régénéré (5 pages)
+## [2026-05-18] ingest | Hermes Agent — docs skills + webhook + cron-PR + telegram
+## [2026-05-18] lint | 0 erreurs, 0 warnings sur 5 pages
+## [2026-05-22] update | index.md régénéré (32 pages)
+## [2026-05-22] ingest | LLMs 101: A Practical Guide (2026 Edition) — 22 pages dans wiki/llm_101/
+## [2026-05-22] update | ajout dossier projet/ dans Structure de CLAUDE.md (format à préciser lors du premier projet)
+## [2026-05-22] update | index.md régénéré (34 pages)
+## [2026-05-22] ingest | Karpathy CLAUDE.md viral thread (X @0xDepressionn)
+## [2026-05-22] lint | 6 erreurs, 97 warnings sur 34 pages
+## [2026-05-22] update | index.md régénéré (36 pages)
+## [2026-05-22] ingest | 12 Claude tips (KingWilliamDefi) — extrait 3 prompts utiles dans wiki/prompts/claude-power-prompts.md
+## [2026-05-22] update | index.md régénéré (41 pages)
+## [2026-05-22] update | lifecycle reviewed pour claude-md-pattern + karpathy-claude-md-viral-thread
+## [2026-05-22] update | index.md régénéré (43 pages)
+## [2026-05-22] update | 6 pages passées de draft à reviewed (sglang, vllm, memory-bandwidth, 3× ahmad-osman sources)
+## [2026-05-22] update | index.md régénéré (43 pages)
+## [2026-05-22] lint | 4 erreurs, 120 warnings sur 43 pages
+## [2026-05-22] lint | 4 erreurs, 100 warnings sur 43 pages
+## [2026-05-22] lint | 4 erreurs, 99 warnings sur 43 pages
+## [2026-05-22] ingest | Ahmad Osman trilogie — Part 1 GPU Memory Math (2026)
+## [2026-05-22] ingest | Ahmad Osman trilogie — Part 2 Memory Bandwidth (2026)
+## [2026-05-22] ingest | Ahmad Osman trilogie — Part 3 Inference Engines (2026)
+## [2026-05-22] update | index.md régénéré (43 pages)
+## [2026-05-22] update | index.md régénéré (52 pages)
+## [2026-05-22] lint | 4 erreurs, 161 warnings sur 52 pages
+## [2026-05-22] update | index.md régénéré (52 pages)
+## [2026-05-22] lint | 4 erreurs, 109 warnings sur 52 pages
+## [2026-05-22] lint | 4 erreurs, 99 warnings sur 52 pages
+## [2026-05-22] update | Phase 2 — 6 engines secondaires (mlx, exllamav2/v3, nvidia-dynamo, ollama, mlc-llm) + 3 concepts engine (paged-attention, continuous-batching, inference-bottlenecks)
+## [2026-05-22] update | index.md régénéré (52 pages)
+## [2026-05-22] lint | 4 erreurs, 99 warnings sur 52 pages

@@ -6,6 +6,7 @@ Ce vault est un LLM Wiki suivant le pattern de Karpathy (voir `LLM-WIKI-CONCEPT.
 
 - `raw/` — sources brutes (articles, PDF, notes, transcripts). **Immuable** : je lis, je ne modifie pas.
 - `wiki/` — pages générées et maintenues par moi. Je suis le seul propriétaire.
+- `projet/` — specs des projets en cours. Format et conventions à préciser lors de la première utilisation concrète (à ce moment-là, mettre à jour cette section).
 - `index.md` — catalogue de toutes les pages du wiki (par catégorie, avec one-liner).
 - `log.md` — journal chronologique append-only des opérations.
 - `LLM-WIKI-CONCEPT.md` — référence du pattern, ne pas modifier.
