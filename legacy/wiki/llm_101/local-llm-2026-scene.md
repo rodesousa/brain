@@ -40,7 +40,7 @@ Fort sur **long-horizon coding, multimodal reasoning, tool use, agent workflows*
 
 ### GLM / Z.ai
 
-Coding agents, long-horizon tasks, MoE systems, deployment-oriented releases.
+Coding agents, long-horizon tasks, MoE systems, deployment-oriented releases. Voir [[glm]] — release phare **GLM-5.2** (MoE 753B, MIT, 1M context).
 
 ### DeepSeek
 
@@ -99,6 +99,7 @@ Open-weight AI **n'est plus juste "Llama vs everything else"**. Quand tu choisis
 - [[quantization-llm]] — FP8 et NVFP4 changent les options
 - [[local-llm-growth-path]] — choix de famille dépend du niveau
 - [[file-formats-llm]] — chaque famille a ses formats préférés
+- [[glm]] — première famille de la liste à avoir sa page entité dédiée
 
 ## My take
 

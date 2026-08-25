@@ -115,6 +115,8 @@ Et le shift : pas *"which hardware is best ?"* mais ***"which bottleneck am I bu
 - [[ahmad-osman-gpu-memory-math-2026]] — la dimension capacity (Part 1)
 - [[ahmad-osman-memory-bandwidth-2026]] — la source principale (Part 2 trilogie)
 - [[ahmad-osman-inference-engines-2026]] — Part 3, le software layer
+- [[glm]] — pourquoi GLM-5.2 local plafonne à 3–9 tok/s
+- [[ofox-glm-5-2-local-2026]] — illustration : 3–9 tok/s en 2-bit sur Mac 256 GB
 
 ## My take
 

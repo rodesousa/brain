@@ -101,6 +101,8 @@ Sur Mac, MLX/MLX-LM exploite mieux la mémoire unifiée native d'Apple. llama.cp
 - [[serving-modes-llm]] — single-user est son terrain, team possible, prod non
 - [[ahmad-osman-gpu-memory-math-2026]] — GGUF runtime-specific
 - [[ahmad-osman-inference-engines-2026]] — source principale
+- [[glm]] — runner GGUF de référence pour GLM-5.2 local
+- [[ofox-glm-5-2-local-2026]] — guide GGUF GLM-5.2 (llama.cpp / LM Studio / Unsloth Studio)
 
 ## My take
 

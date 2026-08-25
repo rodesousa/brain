@@ -56,6 +56,8 @@ Local ne rend pas un coding agent **wise**. Il rend le context privé, la loop c
 - [[agent-guardrails]] — patch workflow protège, pas full filesystem access
 - [[rag-pipeline]] — retrieval sur codebase = RAG spécialisé
 - [[decoding-policies]] — low temp + deterministic pour le code
+- [[glm]] — famille positionnée coding agents, candidate pour ce setup
+- [[ofox-glm-5-2-local-2026]] — faire tourner un modèle coding (GLM-5.2) en local
 
 ## My take
 

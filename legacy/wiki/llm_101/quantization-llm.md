@@ -70,6 +70,8 @@ Ne pas confondre les deux. Ce sont des leviers orthogonaux.
 - [[exllamav2]] — EXL2 quant
 - [[exllamav3]] — EXL3 quant (QTIP-based)
 - [[ahmad-osman-gpu-memory-math-2026]] — tableau détaillé des bits-per-weight effectifs Q-K
+- [[glm]] — cas d'école : 753B impossible sans quant 2-bit/4-bit
+- [[ofox-glm-5-2-local-2026]] — tailles de quant concrètes GLM-5.2 (2-bit ~240 GB, 4-bit ~376–475 GB)
 
 ## My take
 

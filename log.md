@@ -80,3 +80,23 @@ Journal chronologique du wiki. Append-only.
 ## [2026-05-22] update | Phase 2 — 6 engines secondaires (mlx, exllamav2/v3, nvidia-dynamo, ollama, mlc-llm) + 3 concepts engine (paged-attention, continuous-batching, inference-bottlenecks)
 ## [2026-05-22] update | index.md régénéré (52 pages)
 ## [2026-05-22] lint | 4 erreurs, 99 warnings sur 52 pages
+## [2026-06-26] update | index.md régénéré (54 pages)
+## [2026-06-26] ingest | ofox.ai — How to Run GLM-5.2 Locally with GGUF (2026)
+## [2026-06-26] lint | 4 erreurs, 115 warnings sur 54 pages
+## [2026-06-26] lint | 4 erreurs, 111 warnings sur 54 pages
+## [2026-08-25] update | refonte.md — D2 (Obsidian-compatible) + D3 (dossier par sujet, 1 fichier par défaut, deprecated dans l'index) tranchées + section 5 (recherche index & mémoire)
+## [2026-08-25] update | Feuille blanche exécutée — wiki/, raw/, index/hot/improve/Clippings déplacés dans legacy/ (git mv, non destructif). Nouveau index.md. CLAUDE.md marqué EN REFONTE.
+
+## [2026-08-25] update | tools/ déplacé dans legacy/ — log maintenu à la main (plus de tools/append_log.py), CLAUDE.md + refonte.md mis à jour
+
+## [2026-08-25] update | D5 tranchée — capture par geste de chat (ingest url/chemin/texte collé), digest dans wiki/<sujet>/<sujet>.md, texte brut dans wiki/<sujet>/sources/<slug>.md (source >150 mots seulement), index ne liste que les sujets
+
+## [2026-08-25] ingest | Premier sujet du nouveau schéma — retrieval-memoire (digest + source within), index.md mis à jour
+
+## [2026-08-25] update | index.md réécrit comme carte du harness (préambule agent + mots-clés par ligne), CLAUDE.md mis à jour
+
+## [2026-08-25] update | CLAUDE.md réécrit pour le schéma acté (D1-D5) — démarrage de session, frontmatter digest, ingest, query, lint provisoire. refonte.md statut mis à jour (implémenté + testé)
+
+## [2026-08-25] ingest | Munder Difflin → sujet harness (digest + 2 sources), index.md mis à jour
+
+## [2026-08-25] update | CLAUDE.md renommé AGENTS.md (portable multi-agents). Sujet harness restructuré : 1 dossier wiki/harness/ avec munder_difflin.md (sujet) + memory.md (volet mémoire) + sources/. retrieval-memoire fusionné dans le dossier harness.
