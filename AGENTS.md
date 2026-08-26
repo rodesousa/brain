@@ -32,7 +32,15 @@ L'ancien schéma vit dans `legacy/` et n'est plus jamais touché.
 - `index.md` — **LA carte du brain pour le harness.** À lire EN ENTIER au début de chaque session.
   Une ligne par sujet (avec mots-clés). Jamais les fichiers `sources/`.
 - `log.md` — journal chronologique append-only des opérations (maintenu à la main).
+- `decisions.md` — **le "pourquoi" durable.** Append-only. Chaque décision d'architecture actée en
+  session s'écrit ici (entrée datée). Une entrée périmée se marque `superseded`, jamais supprimée.
 - `LLM-WIKI-CONCEPT.md` — référence du pattern, ne pas modifier.
+
+## Règle — Décisions (ADR)
+
+Quand une décision d'architecture (brain ou projet) est actée, l'écrire dans `decisions.md` — pas
+seulement en mémoire de session. Quand un sujet revient, jeter un œil à `decisions.md` : le
+"pourquoi" s'y relit, il ne se re-réexplique pas en chat.
 
 ## Démarrage de session
 
@@ -87,14 +95,17 @@ Un sujet remplacé/obsolète : le dossier et le fichier restent (consultables), 
 1. **Lire** la source (URL via web, chemin de fichier, ou texte collé).
 2. **Triage `should_compile`** : `yes` / `no` / `maybe` + raison en 1 ligne. Si `no`, on s'arrête
    (la source ne rentre pas).
-3. **Repérer le sujet** : regarder `index.md`. Sujet existant → on ajoute dans son digest ; sinon on
-   crée `wiki/<sujet>/<sujet>.md` (créer sans demander — le besoin est le retrieval de demain).
-4. Si la source fait > ~150 mots → la sauver en texte brut dans `wiki/<sujet>/sources/<slug>.md`.
+3. **Confirmer avant d'écrire** : présenter à l'utilisateur un résumé de la source + le triage
+   `should_compile`, et attendre son « oui » explicite avant de créer/mettre à jour quoi que ce soit
+   (digest, source, index, log). Aucun fichier n'est touché avant ce feu vert.
+4. **Repérer le sujet** : regarder `index.md`. Sujet existant → on ajoute dans son digest ; sinon on
+   crée `wiki/<sujet>/<sujet>.md`.
+5. Si la source fait > ~150 mots → la sauver en texte brut dans `wiki/<sujet>/sources/<slug>.md`.
    Sinon, intégrer directement dans le digest.
-5. **Écrire le digest** : TL;DR, points clés, mise à jour de `updated:`/`summary:`/`keywords`.
-6. Mettre à jour la ligne dans `index.md` (nom, one-liner, mots-clés).
-7. Append dans `log.md` : `## [YYYY-MM-DD] ingest | <titre source>`.
-8. Si la source est à cheval sur deux sujets : poser UNE question max, puis file.
+6. **Écrire le digest** : TL;DR, points clés, mise à jour de `updated:`/`summary:`/`keywords`.
+7. Mettre à jour la ligne dans `index.md` (nom, one-liner, mots-clés).
+8. Append dans `log.md` : `## [YYYY-MM-DD] ingest | <titre source>`.
+9. Si la source est à cheval sur deux sujets : poser UNE question max, puis file.
 
 ## Workflow — Query
 

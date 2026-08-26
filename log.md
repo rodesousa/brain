@@ -100,3 +100,9 @@ Journal chronologique du wiki. Append-only.
 ## [2026-08-25] ingest | Munder Difflin → sujet harness (digest + 2 sources), index.md mis à jour
 
 ## [2026-08-25] update | CLAUDE.md renommé AGENTS.md (portable multi-agents). Sujet harness restructuré : 1 dossier wiki/harness/ avec munder_difflin.md (sujet) + memory.md (volet mémoire) + sources/. retrieval-memoire fusionné dans le dossier harness.
+
+## [2026-08-25] update | decisions.md créé — volet ADR (pattern geoff/ADR-skill) : un fichier append-only pour les décisions d architecture. AGENTS.md mis à jour (structure + règle Décisions).
+
+## [2026-08-26] ingest | FreeToken (FlashML) — moteur de serving MoE edge-native. Digest + source (repo + paper arXiv 2608.16157), index.md mis à jour.
+
+## [2026-08-26] update | Convention ingest : feu vert avant d'écrire — expliquer la source (résumé + triage) à l'utilisateur, attendre son « oui » explicite avant de créer/mettre à jour le wiki. AGENTS.md workflow mis à jour.
